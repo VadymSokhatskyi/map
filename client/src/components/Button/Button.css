@@ -1,0 +1,29 @@
+.button {
+    min-width: 32px;
+    min-height: 32px;
+    margin: 2px;
+    padding: 8px;
+    font-weight: 500;
+    color: #F7F9F9;
+    box-shadow: 0 0 8px #808B96;
+    border: none;
+    border-radius: 8px;
+    transition: all 0.2s;
+}
+
+.button--disabled {
+    color: #ABB2B9;
+    pointer-events: none;
+    transition: all 0.2s;
+}
+
+.button:hover {
+    cursor: pointer;
+    transition: all 0.2s;
+    filter: brightness(2);
+}
+
+.button:active {
+    background-color: #566573;
+    transition: all 0.2s;
+}

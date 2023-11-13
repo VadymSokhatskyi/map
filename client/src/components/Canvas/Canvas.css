@@ -1,0 +1,70 @@
+.canvas__wrap {
+    position: relative;
+}
+
+.canvas {
+    /*border: 2px solid black;*/
+}
+
+.canvas--edit:hover {
+    cursor: pointer;
+}
+
+.canvas__controls {
+    position: absolute;
+    left: 24px;
+    bottom: 24px;
+    z-index: 4;
+    display: grid;
+}
+
+.canvas__controlCenter {
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
+}
+
+.canvas__controlUp {
+    position: absolute;
+    left: 40px;
+    bottom: 80px;
+    transform: rotate(-90deg);
+}
+
+.canvas__controlRight {
+    position: absolute;
+    left: 80px;
+    bottom: 40px;
+}
+
+.canvas__controlDown {
+    position: absolute;
+    left: 40px;
+    bottom: 0;
+    transform: rotate(90deg);
+}
+
+.canvas__controlLeft {
+    position: absolute;
+    left: 0;
+    bottom: 40px;
+    transform: rotate(180deg);
+}
+
+.canvas__controlMinus {
+    position: absolute;
+    left: 120px;
+    bottom: 0;
+}
+
+.canvas__controlPlus {
+    position: absolute;
+    left: 160px;
+    bottom: 0;
+}
+
+.canvas__controlRemove {
+    position: absolute;
+    left: 200px;
+    bottom: 0;
+}
